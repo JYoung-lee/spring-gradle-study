@@ -10,5 +10,4 @@ public class SpringStudyApplication {
 		SpringApplication.run(SpringStudyApplication.class, args);
 	}
 
-	// 맥북 git 테스트
 }
