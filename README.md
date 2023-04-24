@@ -1,3 +1,3 @@
 # spring-gradle-study
-* 맥 OS / IntlliJ 사용해보기  
+* MacOS / IntlliJ 사용 
 - 강의 영상 : 김영한 (입문)
