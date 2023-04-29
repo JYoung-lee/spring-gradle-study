@@ -1,5 +1,7 @@
 package study.springstudy.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import study.springstudy.domain.Member;
 import study.springstudy.repository.MemberRepository;
 import study.springstudy.repository.MemoryMamberRepository;
@@ -12,6 +14,7 @@ public class MemberService {
     private final MemberRepository memberRepository;
 
     public MemberService(MemberRepository memberRepository) {
+
         this.memberRepository = memberRepository;
     }
 
