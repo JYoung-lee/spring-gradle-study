@@ -21,6 +21,7 @@ public class MemoryMamberRepository implements MemberRepository {
 
     @Override
     public Optional<Member> findbyId(Long id) {
+
         return Optional.ofNullable(stroe.get(id)); //null인 경우에도 반환해준다.
     }
 
@@ -33,6 +34,7 @@ public class MemoryMamberRepository implements MemberRepository {
 
     @Override
     public List<Member> findAll() {
+
         return new ArrayList<>(stroe.values());
     }
 
